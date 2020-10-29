@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     {
         TextView text1 = (TextView)findViewById(R.id.textView3);
         text1.setText("Вам нравиться");
-        TextView like_count = (TextView)findViewById(R.id.textView);
+        TextView like_count = (TextView) findViewById(R.id.textView2);
         like_counter++;
         like_count.setText(String.valueOf(like_counter));
     }
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     {
         TextView text2 = (TextView)findViewById(R.id.textView3);
         text2.setText("Вам не нравиться");
-        TextView dislike_count = (TextView)findViewById(R.id.textView2);
+        TextView dislike_count = (TextView) findViewById(R.id.textView);
         dislike_counter++;
         dislike_count.setText(String.valueOf(dislike_counter));
     }
